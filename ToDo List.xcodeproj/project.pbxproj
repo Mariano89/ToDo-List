@@ -14,6 +14,7 @@
 		201778C51FEF0CF9002595B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201778C31FEF0CF9002595B0 /* LaunchScreen.storyboard */; };
 		201778CD1FEF0FE4002595B0 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201778CC1FEF0FE4002595B0 /* ToDoTableViewController.swift */; };
 		201778CF1FEF1442002595B0 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201778CE1FEF1442002595B0 /* ToDo.swift */; };
+		201778D11FEF36A6002595B0 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201778D01FEF36A6002595B0 /* AddToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		201778C61FEF0CF9002595B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		201778CC1FEF0FE4002595B0 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		201778CE1FEF1442002595B0 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		201778D01FEF36A6002595B0 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				201778B71FEF0CF9002595B0 /* AppDelegate.swift */,
 				201778CC1FEF0FE4002595B0 /* ToDoTableViewController.swift */,
+				201778D01FEF36A6002595B0 /* AddToDoViewController.swift */,
 				201778CE1FEF1442002595B0 /* ToDo.swift */,
 				201778BB1FEF0CF9002595B0 /* Main.storyboard */,
 				201778C11FEF0CF9002595B0 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			files = (
 				201778B81FEF0CF9002595B0 /* AppDelegate.swift in Sources */,
 				201778CD1FEF0FE4002595B0 /* ToDoTableViewController.swift in Sources */,
+				201778D11FEF36A6002595B0 /* AddToDoViewController.swift in Sources */,
 				201778C01FEF0CF9002595B0 /* ToDo_List.xcdatamodeld in Sources */,
 				201778CF1FEF1442002595B0 /* ToDo.swift in Sources */,
 			);
