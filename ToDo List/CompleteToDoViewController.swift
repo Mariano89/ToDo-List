@@ -24,8 +24,16 @@ class CompleteToDoViewController: UIViewController {
     }
     
     @IBAction func completeTapped(_ sender: Any) {
-        
-        
+        var index = 0
+        for toDo in previousVC.toDos {
+            if toDo.name == selectedToDo.name {
+                previousVC.toDos.remove(at: index)
+                previousVC.tableView.reloadData()
+                navigationController?.popViewController(animated: true)
+                break
+            }
+            index += 1
+        }
         
     }
     
